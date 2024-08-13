@@ -12,7 +12,7 @@ const AppointmentList = () => {
 
   return (
     <div>
-      <h2>Appointments</h2>
+      <br></br>
       <table>
         <thead>
           <tr>

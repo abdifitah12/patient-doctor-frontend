@@ -102,7 +102,8 @@ const PatientRegistrationAndAppointment = () => {
                 type="text"
                 placeholder="Enter doctor ID"
                 value={doctorId}
-                onChange={(e) => setDoctorId(e.target.value)} 
+                onChange={(e) => setDoctorId(e.target.value)}
+                 
                 required
               />
             </Form.Group>
@@ -117,8 +118,8 @@ const PatientRegistrationAndAppointment = () => {
               />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
-              Register and Make Appointment
+            <Button variant="secondary" type="submit">
+              Register
             </Button>
           </Form>
         </Col>

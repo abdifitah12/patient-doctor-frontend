@@ -1,12 +1,9 @@
 body {
-  background-color: #f0f8ff;
+  background-color: #e6f7ff; /* Light blue background */
   min-height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
 }
-
-
-
 
 .App {
   font-family: Arial, sans-serif;
@@ -24,8 +21,13 @@ th, td {
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #bdc7cb; /* Medium blue for table headers */
+  color: rgb(35, 32, 32);
   text-align: left;
+}
+
+td {
+  background-color: #f5f6f8; /* Very light blue for table cells */
 }
 
 form div {

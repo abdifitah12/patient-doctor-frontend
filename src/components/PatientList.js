@@ -12,7 +12,7 @@ const PatientList = () => {
 
   return (
     <div>
-      <h2>Patients</h2>
+      <br></br>
       <table striped bordered hover>
         <thead>
           <tr>
